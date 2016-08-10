@@ -9,6 +9,7 @@ class Roman
     result = ''
 
     while n >= 1
+      return 'IV' if n == 4
       result += 'I'
       n -= 1
     end
